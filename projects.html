@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5947b02e5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Fugaz+One&family=Noto+Sans&family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
     <title>Mouloud Portfolio | Projects Page</title>
 </head>
 <body>
@@ -10,28 +16,59 @@
         <nav>
             <h1>Moulouds Portfolio</h1>
             <ul>
-                <a href="/index.html#home"><li>Home</li></a>
+                <a href="/index.html"><li>Home</li></a>
                 <a href="/index.html#skills"><li>Skills</li></a>
-                <a href="/projects.html"><li>Projects</li></a>
+                <a href="#"><li>Projects</li></a>
                 <a href="/index.html#contact"><li>Contact</li></a>
-                <li><i class="fa-brands fa-github"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
+                <a href="https://github.com/m2ygmmm"><li><i class="fa-brands fa-github" id="iconButton"></i></li></a>
+                <a href="https://www.linkedin.com/in/mouloud-atmani-131509255/"><li><i class="fa-brands fa-linkedin" id="iconButton"></i></li></a>
             </ul>
         </nav>
     </header>
-   <section>
+   <section class="heading">
     <h1>My projects</h1>
     <p>Here are a selection of my latest projects I have created, with source code available on GitHub. Any feedback is 
         greatly appreciated!</p>
    </section>
-   <main>
-    <section>
+   <main class="grid-cards">
+    <section class="card-1">
         <h2>Mixed messages</h2>
         <h4>A simple JavaScript program</h4>
         <figure>
-            <img src="codeImage.jpg" alt="JavaScript Image">
+            <img src="codeImage.jpg" class="cardImg" alt="JavaScript Image">
+        </figure>
+        <p class="cardText">A simple JavaScript program that can predict what will happen to you during your week.....Written 
+            in Vanilla JavaScript using a variation of methods and objects to output a made up and random string!
+        </p>
+        <a href="https://github.com/m2ygmmm"><i class="fa-brands fa-github" id="iconButton"></i> View Now</a>
+    </section>
+    <section class="card-2">
+        <h2>Mixed messages</h2>
+        <h4>A simple JavaScript program</h4>
+        <figure>
+            <img src="codeImage.jpg" class="cardImg" alt="JavaScript Image">
+        </figure>
+    </section>
+    <section class="card-2">
+        <h2>Mixed messages</h2>
+        <h4>A simple JavaScript program</h4>
+        <figure>
+            <img src="codeImage.jpg" class="cardImg" alt="JavaScript Image">
         </figure>
     </section>
    </main>
 </body>
+<footer>
+    <h1>Created by: Mouloud Atmani</h1>
+    <ul>
+        <a href="/index.html#home"><li>Home</li></a>
+        <a href="/index.html#skills"><li>Skills</li></a>
+        <a href="#"><li>Projects</li></a>
+        <a href="/index.html#contact"><li>Contact</li></a>
+    </ul>
+    <ul>
+        <a href="https://github.com/m2ygmmm"><li><i class="fa-brands fa-github" id="iconButton"></i></li></a>
+        <a href="https://www.linkedin.com/in/mouloud-atmani-131509255/"><li><i class="fa-brands fa-linkedin" id="iconButton"></i></li></a>
+    </ul>
+</footer>
 </html>
