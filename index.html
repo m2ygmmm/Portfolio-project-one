@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/x-icon" href="codefavicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5947b02e5b.js" crossorigin="anonymous"></script>
@@ -21,8 +22,11 @@
                 <a href="#skills"><li>Skills</li></a>
                 <a href="/projects.html"><li>Projects</li></a>
                 <a href="#contact"><li>Contact</li></a>
-                <a href="https://github.com/m2ygmmm"><li><i class="fa-brands fa-github" id="iconButton"></i></li></a>
-                <a href="https://www.linkedin.com/in/mouloud-atmani-131509255/"><li><i class="fa-brands fa-linkedin" id="iconButton"></i></li></a>
+                <div id="socialButtons">
+                    <a href="https://github.com/m2ygmmm"><li><i class="fa-brands fa-github" id="iconButton"></i></li></a>
+                    <a href="https://www.linkedin.com/in/mouloud-atmani-131509255/"><li><i class="fa-brands fa-linkedin" id="iconButton"></i></li></a>
+                </div>
+                
                 <i class="fa-solid fa-bars dropdownBtn" id="dropdownBtn"></i>
             </ul>
         </nav>
@@ -30,12 +34,10 @@
     <main id="home" class="grid">
         <section class="col-1">
             <h1>Welcome</h1>
-            <p class="aboutText">Welcome to my page! My name is Mouloud and I am a student at codecademy! I am learning different coding languages,
-                techniques and libraries with the goal of becoming a Full-Stack developer. I have crafted this website to showcase
-                my skills that I have developed in HTML,CSS and JavaScript and have added some projects that I have also completed.
+            <p class="aboutText">Welcome to my page! I'm Mouloud, a Codecademy student passionately exploring diverse coding languages, techniques, and libraries. My aspiration is to evolve into a Full-Stack developer. This website serves as a testament to the skills I've honed across various languages, featuring completed projects that showcase my proficiency. Explore and witness the exciting journey of my coding endeavors!
             </p>
-            <p class="aboutText">I hope you enjoy the content on my website, and greatly appreciate any feeback you may have. Please feel free to contact me
-                too! Via email or LinkedIn
+            <p class="aboutText">
+                I hope you find the content on my website enjoyable, and I would greatly appreciate any feedback you might have. Please feel free to reach out to me via email or LinkedIn. Your input is valuable, and I look forward to connecting with you!
             </p>
         </section>
     <section class="col-2">
@@ -57,6 +59,10 @@
         <i class="fa-brands fa-js"></i>
         <i class="fa-brands fa-css3-alt"></i>
         <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-react"></i>
+        <i class="fa-brands fa-python"></i>
+        <i class="fa-brands fa-php"></i>
+        <i class="fa-solid fa-database"></i>
     </section>
     <section id="contact">
         <h1>Contact me:</h1>
@@ -71,8 +77,8 @@
         <a href="/projects.html"><li>Projects</li></a>
         <a href="#contact"><li>Contact</li></a>
     </ul>
-    <ul>
-        <a href="https://github.com/m2ygmmm"><li><i class="fa-brands fa-github" id="iconButton"></i></li></a>
+    <ul style="display: flex; justify-content: center;">
+        <a href="https://github.com/m2ygmmm" style="padding-right: 20px;"><li><i class="fa-brands fa-github" id="iconButton"></i></li></a>
         <a href="https://www.linkedin.com/in/mouloud-atmani-131509255/"><li><i class="fa-brands fa-linkedin" id="iconButton"></i></li></a>
     </ul>
 </footer>
