@@ -278,6 +278,11 @@ footer h1{
         text-align: center;
         padding: 2%;
     }
-    
+    .aboutText{
+        font-size: 1.15em;
+    }
+    #aboutText2{
+        display: none;
+    }
   
 }
